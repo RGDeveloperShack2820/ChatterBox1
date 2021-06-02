@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="right"
+    android:padding="7dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_chatting_item"
+        android:layout_width="wrap_content"
+        android:maxWidth="270dp"
+        android:text="Hello My Name is Rohit"
+        android:textColor="#111111"
+        android:textSize="20sp"
+        android:paddingBottom="12dp"
+        android:paddingTop="9dp"
+        android:paddingLeft="12dp"
+        android:paddingEnd="12dp"
+        android:background="@drawable/chatting_messages_bg"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>

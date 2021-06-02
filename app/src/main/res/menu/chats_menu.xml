@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.basic.chatterbox1.Activities.ChatsActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:title="Setting"
+
+        />
+
+    <item
+        android:id="@+id/action_contacts"
+        android:orderInCategory="100"
+        android:title="Contacts"
+        app:showAsAction="withText"
+        />
+
+    <item
+        android:id="@+id/action_Saved"
+        android:orderInCategory="100"
+        android:title="Saved Messages"
+        app:showAsAction="withText"
+        />
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Log Out"
+        app:showAsAction="withText"
+        />
+
+</menu>
